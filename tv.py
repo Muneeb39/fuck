@@ -567,8 +567,8 @@ def token_cookie():
 			if 'id' in post:
 				print(f" {n}. managed to share {data['id']}")
 			else:
-				exit("Failed to share, possibly invalid token
-")
+				exit("Failed to share, possibly invalid token")
+
 	except:
 		exit("Failed to share, possibly invalid token")
 #-------------[ CRACK-FROM-FILE ]------------------#
