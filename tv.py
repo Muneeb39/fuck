@@ -272,7 +272,7 @@ def result():
 			time.sleep(3)
 			back()
 		if len(vin)==0:
-			print('>> You Don't Have CP Results ')
+			print('>> You Dont Have CP Results ')
 			time.sleep(2)
 			back()
 		else:
